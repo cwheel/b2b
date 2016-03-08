@@ -1,0 +1,36 @@
+.searchBar {
+    background-color: #455b87 !important;
+}
+
+#umass-banner {
+	background-color: #455b87 !important;
+}
+
+table#banner {
+	background-color: #455b87 !important;
+	background-image: none;
+}
+
+#bannernav {
+	background-color: #455b87 !important;
+}
+
+#umass-banner input[type="submit"] {
+	background-color: #455b87 !important;
+}
+
+a:link {
+	color: #369 !important;
+}
+
+#bannernav a:link {
+	color: #fff !important;
+}
+
+#umass-banner  a:link {
+	color: #fff !important;
+}
+
+#pthdr2links a:link {
+	color: #fff !important;
+}

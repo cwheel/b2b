@@ -1,0 +1,32 @@
+{
+  "name": "b2b",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Undo Spire's clashing red top bar",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://www.spire.umass.edu/*"
+  ],
+  "web_accessible_resources" : [
+    "src/inject/blue_logo.png",
+    "src/inject/blue_logo_small.png"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.spire.umass.edu/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
